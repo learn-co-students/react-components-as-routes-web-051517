@@ -57,7 +57,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Nabar />
+        <Navbar />
         <Route exact path='/' render={Home} />
         <Route exact path='/about' render={About} />
         <Route exact path='/login' render={Login} />
